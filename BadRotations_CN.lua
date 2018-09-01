@@ -2,8 +2,8 @@
 local locales={
 
 --br：base options
-["Cast Debug"]="",
-["Ignore Combat"]="",
+["Cast Debug"]="施法debug",
+["Ignore Combat"]="自动开怪",
 ["Mute Queue"]="",
 ["Use Crystal"]="",
 ["Use Fel Focuser"]="",
@@ -139,7 +139,7 @@ local locales={
 ["Dynamic Targetting"]="动态目标",
 ["Target Dynamic Target"]="",
 ["Hostiles Only"]="",
-["Wise Target"]="",
+["Wise Target"]="智能目标",
 ["Forced Burn"]="",
 ["Avoid Shields"]="",
 ["Tank Threat"]="",
@@ -153,20 +153,20 @@ local locales={
 ["Enrages Handler"]="",
 
 --config: general
-["Auto Delay"]="",
-["Bot Update Rate"]="",
-["Start/Stop BadRotations"]="",
-["Rotation Log"]="",
+["Auto Delay"]="自动延时",
+["Bot Update Rate"]="BR执行频率",
+["Start/Stop BadRotations"]="开始/停止BR",
+["Rotation Log"]="循环日志",
 ["Display Failcasts"]="",
 ["Queue Casting"]="",
-["Auto Loot"]="",
-["Auto-Sell/Repair"]="",
-["Accept Queues"]="",
+["Auto Loot"]="自动拾取",
+["Auto-Sell/Repair"]="自动售卖/修理",
+["Accept Queues"]="自动接受队列",
 ["Overlay Messages"]="",
-["Talent Anywhere"]="",
-["Notify Not Unlocked"]="",
-["Reset Options"]="",
-["Reset Saved Profiles"]="",
+["Talent Anywhere"]="随便改天赋",
+["Notify Not Unlocked"]="未解锁通知",
+["Reset Options"]="重置选项",
+["Reset Saved Profiles"]="重置保存的配置",
 
 --config: healing engine
 ["HE Active"]="",
