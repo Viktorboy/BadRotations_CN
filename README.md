@@ -7,5 +7,7 @@
 2. 这个插件只是BadRotations的附属插件，必须把“BadRotations”和“BadRotations汉化”都选上才可以。如果只勾选“BadRotations”则表示使用英文原版，如果只勾选“BadRotations汉化”则毫无用处。
 3. 目前只是有了一个框架，内容还得靠大家来补充。
 
+完成进度：
+![进度图](https://github.com/ybhuxiao/BadRotations_CN/raw/master/media/progress.png)
 
 有问题/赞赏可联系我，QQ376665005；对lua开发有兴趣的童鞋欢迎加QQ群597022336
