@@ -1,0 +1,8 @@
+﻿## Interface: 80000
+## Title: BadRotations汉化
+## Notes: BadRotations汉化
+## Author: 老胡
+## Dependencies: BadRotations
+## Version: 8.0
+
+BadRotations_CN.lua
