@@ -1,6 +1,6 @@
 ﻿## Interface: 80000
-## Title: BadRotations汉化
-## Notes: BadRotations汉化
+## Title: |cffa330c9BadRotations汉化
+## Notes: |cffa330c9BadRotations汉化
 ## Author: 老胡
 ## Dependencies: BadRotations
 ## Version: 8.0
