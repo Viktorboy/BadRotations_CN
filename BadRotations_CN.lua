@@ -570,20 +570,291 @@ local locales={
 ["Spell Reflection"]="",
 ["Shockwave - Int"]="",
 
---猎人
+--猎人：野兽控制
+["Mend Pet"]="",
+["Bestial Wrath"]="",
+["Aspect of the Wild"]="",
+["Stampede"]="",
+["A Murder Of Crows / Barrage"]="",
+["Shield-o-tronic"]="",
+["Exhilaration"]="",
+["Aspect Of The Turtle"]="",
+["Counter Shot"]="",
+["Intimidation"]="",
 
---萨满
+--猎人：射击
+["Piercing Shot Units"]="",
+["Trueshot"]="",
+["Explosive Shot Mode"]="",
+["Piercing Shot Mode"]="",
 
---法师
+--猎人：生存
+["Auto Attack/Passive"]="",
+["Auto Growl"]="",
+["A Murder of Crows"]="",
+["Aspect of the Eagle"]="",
+["Coordinated Assault"]="",
+["Light's Judgment"]="",
+["Feign Death"]="",
+["Freezing Trap"]="",
+["Intimidation - Int"]="",
+["Muzzle"]="",
+["Trap Mode"]="",
+["Artifact Mode"]="",
 
---术士
 
---德鲁伊
+--萨满：元素
+["Ghost Wolf"]="",
+["Spirit Walk"]="",
+["Water Walking"]="",
+["Ascendance"]="",
+["Elemental Mastery"]="",
+["Fire/Storm Elemental Totem"]="",
+["Ancestral Spirit"]="",
+["Astral Shift"]="",
+["Clease Spirit"]="",
+["Earth Elemental Totem"]="",
+["Earthquake"]="",
+["Healing Surge"]="",
+["Lightning Surge Totem - HP"]="",
+["Lightning Surge Totem - AoE"]="",
+["Purge"]="",
+["Thunderstorm"]="",
+["Wind Shear"]="",
+["Hex"]="",
+["Lightning Surge Totem"]="",
+["Thunderstorm - Interrupt"]="",
+["Earthquake - Interrupt"]="",
+
+--萨满：增强
+["Feral Lunge"]="",
+["Lightning Bolt Out of Combat"]="",
+["Earth Elemental"]="",
+["Feral Spirit"]="",
+["Earth Shield"]="",
+["Capacitor Totem - HP"]="",
+["Capacitor Totem - AoE"]="",
+["Capacitor Totem"]="",
+
+--萨满：恢复
+["Cloudburst Totem"]="",
+["Cloudburst Totem Targets"]="",
+["Ancestral Guidance"]="",
+["Ancestral Guidance Targets"]="",
+["Ascendance Targets"]="",
+["Healing Tide Totem"]="",
+["Healing Tide Totem Targets"]="",
+["Ancestral Protection Totem"]="",
+["Ancestral Protection Totem Targets"]="",
+["Earthen Shield Totem"]="",
+["Earthen Shield Totem Targets"]="",
+["Healing Rain"]="",
+["Healing Rain Targets"]="",
+["Healing Rain Key"]="",
+["Healing Rain on Melee"]="",
+["Healing Rain on CD"]="",
+["Spirit Link Totem"]="",
+["Spirit Link Totem Targets"]="",
+["Spirit Link Totem Key"]="",
+["Riptide"]="",
+["Healing Stream Totem"]="",
+["Unleash Life"]="",
+["Healing Wave"]="",
+["Chain Heal"]="",
+["Chain Heal Targets"]="",
+["Gift of the Queen"]="",
+["Gift of the Queen Targets"]="",
+["Wellspring"]="",
+["Wellspring Targets"]="",
+
+
+--法师：奥术
+["Arcane Charges During Conserve"]="",
+["Arcane Explosion"]="",
+["Burn Phase Debug"]="",
+["Arcane Power"]="",
+["Rune of Power"]="",
+
+--法师：火焰
+["Blazing Barrier"]="",
+
+--法师：冰霜
+["Mirror Image"]="",
+["Frost Nova"]="",
+["Counterspell"]="",
+
+--术士：痛苦
+["Pet Management"]="",
+["Summon Pet"]="",
+["Grimoire of Service - Pet"]="",
+["Grimoire of Service - Use"]="",
+["Life Tap HP Limit"]="",
+["Multi-Dot Limit"]="",
+["Multi-Dot HP Limit"]="",
+["Agony Boss HP Limit"]="",
+["Seed Units"]="",
+["PS Units"]="",
+["Wrath of Consumption"]="",
+["Soul Harvest"]="",
+["Summon Doomguard"]="",
+["Summon Infernal"]="",
+["Dark Pact"]="",
+["Drain Soul"]="",
+["Health Funnel"]="",
+["Unending Resolve"]="",
+["MultiDot Mode"]="",
+
+--术士：恶魔
+["Demonwrath"]="",
+["Felstorm"]="",
+["Doom Boss HP Limit"]="",
+["Drain Life"]="",
+
+--术士：毁灭
+["Immolate Boss HP Limit"]="",
+["Cataclysm"]="",
+["Rain of Fire"]="",
+["Life Tap"]="",
+["Chaos Bolt at Shards"]="",
+
+
+--德鲁伊：平衡
+["Deadly Chicken"]="",
+["Memekin Rotation"]="",
+["Sunfire targets"]="",
+["Moonfire targets"]="",
+["Stellar Flare targets"]="",
+["Starfall targets"]="",
+["Minimum HP to dot"]="",
+["Starsurge Min Astral Power"]="",
+["Flask"]="",
+["Augment Rune"]="",
+["Incarnation/Celestial Alignament"]="",
+["Warrior of Elune"]="",
+["Force of Nature"]="",
+["Astral Communion"]="",
+["Renewal"]="",
+["Swiftmend"]="",
+["Potion/Healthstone"]="",
+["Regrowth"]="",
+["Rejuvenation"]="",
+["Barkskin"]="",
+["Rebirth"]="",
+["Remove Corruption"]="",
+["Innervate"]="",
+["Displacer Beast/Wild Charge"]="",
+["Auto Shapeshifts"]="",
+["Auto Blessing of The Ancients"]="",
+["Break Crowd Control"]="",
+["Solar Beam"]="",
+["Mighty Bash"]="",
+["Interrupt at"]="",
+["Emerald Dreamcatcher"]="",
+["Oneth's Intuition"]="",
+["Promisse Of Elune, The Moon Goddness"]="",
+["Sephuz's Secret"]="",
+
+--德鲁伊：野性
+["Death Cat Mode"]="",
+["Perma Fire Cat"]="",
+["Brutal Slash in Opener"]="",
+["Fall Timer"]="",
+["Displacer Beast / Wild Charge"]="",
+["Brutal Slash Targets"]="",
+["Tiger's Fury"]="",
+["Snipe Tiger's Fury"]="",
+["Berserk/Incarnation"]="",
+["Umbral Moonglaives"]="",
+["Rebirth - Target"]="",
+["Revive"]="",
+["Revive - Target"]="",
+["Remove Corruption - Target"]="",
+["Survival Instincts"]="",
+["Regrowth - OoC"]="",
+["Regrowth - InC"]="",
+["Auto Heal"]="",
+["Skull Bash"]="",
+["Maim"]="",
+["Prowl Mode"]="",
+
+--德鲁伊：守护
+["Growl"]="",
+["Maul At"]="",
+["Incarnation"]="",
+["Frenzied Regeneration"]="",
+["FR - HP Loss Percent"]="",
+["FR - HP Interval (3 Charge)"]="",
+["FR - HP Interval (2 Charge)"]="",
+["FR - HP Interval (1 Charge)"]="",
+["Ironfur"]="",
+["Rage of the Sleeper"]="",
+["Incapacitating Roar"]="",
+
+--德鲁伊：恢复
+["DBM cast Rejuvenation"]="",
+["DOT cast Rejuvenation"]="",
+["DPS Save mana"]="",
+["Affixes Helper"]="",
+["The Deceiver's Grand Design"]="",
+["Archive of Faith"]="",
+["Innervate Targets"]="",
+["Incarnation: Tree of Life"]="",
+["Incarnation: Tree of Life Targets"]="",
+["Tranquility"]="",
+["Tranquility Targets"]="",
+["Efflorescence"]="",
+["Efflorescence Targets"]="",
+["Efflorescence recast delay"]="",
+["Efflorescence Key"]="",
+["Lifebloom"]="",
+["Cenarion Ward"]="",
+["Ironbark"]="",
+["Ironbark Target"]="",
+["Swiftmend Target"]="",
+["Rejuvenation Tank"]="",
+["Max Rejuvenation Targets"]="",
+["Germination"]="",
+["Germination Tank"]="",
+["Regrowth Tank"]="",
+["Oh Shit! Regrowth"]="",
+["Regrowth Clearcasting"]="",
+["Keep Regrowth on tank"]="",
+["Cultivation"]="",
+["Wild Growth"]="",
+["Wild Growth Targets"]="",
+["Soul of the Forest + Wild Growth"]="",
+["Soul of the Forest + Wild Growth Targets"]="",
+["Swiftmend + Wild Growth key"]="",
+["Flourish"]="",
+["Flourish Targets"]="",
+["Flourish HOT Targets"]="",
+["HOT Time count"]="",
+["Rejuvenation Mode"]="",
 
 
 
 }
 
+--添加子配置
+function BadRotationsLocaleAdd(sub_locales)
+  if not sub_locales or type(sub_locales)~="table" or #sub_locales==0 then return;end
+  for i=1,#sub_locales do
+    tinsert(locales,sub_locales[i])
+  end
+end
+
+local function startswith(str, substr)
+  if str == nil or substr == nil then
+    return nil, "the string or the sub-stirng parameter is nil"
+  end
+  if string.find(str, substr) ~= 1 then
+    return false
+  else
+    return true
+  end
+end
+
+--hook
 local hooked = false
 C_Timer.NewTicker(.5, function()
   if hooked then return;end
@@ -595,12 +866,20 @@ C_Timer.NewTicker(.5, function()
     --修改多选框
     local original = br.ui.createCheckbox
     function br.ui.createCheckbox(parent, text, tooltip, checked)
+      if type(tooltip)~="string" or #tooltip==0 then original(parent, text, tooltip, checked); end
+
+      local tooltipColor=""
+      if startswith(tooltip,"|c") and #tooltip>10 then
+        tooltipColor = string.sub(tooltip,1,10)
+        tooltip = string.sub(tooltip,11,#tooltip)
+      end
+
       if tooltip and locales[tooltip] and locales[tooltip]~="" then
-        tooltip = locales[tooltip]
+        tooltip = tooltipColor..locales[tooltip]
       elseif locales[tooltip]==nil then      
         print('["'..tooltip..'"]="",')
       end
-      return original(parent, text, tooltip, checked)
+      return original(parent, text, tooltipColor..tooltip, checked)
     end
     
     --修改按钮文字
