@@ -1,6 +1,8 @@
 # BadRotations_CN
 
-这个插件是BadRotations的附属插件，必须把“BadRotations”和“BadRotations汉化”都选上才可以。这样模式的好处在于没有修改任何br的代码，br更新了之后，BadRotations_CN即使不更新，也不影响br的使用。
+这个插件是BadRotations的附属插件，必须把“BadRotations”和“BadRotations汉化”都选上才可以。
+这样模式的好处在于没有修改任何br的代码，br更新了之后，BadRotations_CN即使不更新，也不影响br的使用。另外你只需要启用/禁用这个插件，就可以在中文/英文版之前随意切换！
+
 ![使用说明](https://github.com/ybhuxiao/BadRotations_CN/raw/master/media/eg.png)
 
 
