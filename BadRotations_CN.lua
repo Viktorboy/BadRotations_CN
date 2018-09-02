@@ -907,29 +907,67 @@ end
 local hooked = false
 C_Timer.NewTicker(.5, function()
   if hooked then return;end
-  if br and br.ui and br.ui.createCheckbox then
+  if br and br.ui and br.ui.createText then
     hooked = true
     
     print("br 汉化开始")
     
     --修改多选框
-    local original = br.ui.createCheckbox
-    function br.ui.createCheckbox(parent, text, tooltip, checked)
-      if type(tooltip)~="string" or #tooltip==0 then original(parent, text, tooltip, checked); end
-
-      local tooltipColor=""
-      if startswith(tooltip,"|c") and #tooltip>10 then
-        tooltipColor = string.sub(tooltip,1,10)
-        tooltip = string.sub(tooltip,11,#tooltip)
+    --local original_createCheckbox = br.ui.createCheckbox
+    --function br.ui.createCheckbox(self, parent, text, tooltip, checked)
+    --  if type(text)~="string" or #text==0 then original_createCheckbox(parent, text, text, checked); end
+    --
+    --  local color=""
+    --  if startswith(text,"|c") and #text>10 then
+    --    color = string.sub(text,1,10)
+    --    text = string.sub(text,11,#text)
+    --  end
+    --
+    --  if text and locales[text] and locales[text]~="" then
+    --    text = color..locales[text]
+    --  elseif locales[text]==nil then      
+    --    print('["'..text..'"]="",')
+    --  end
+    --  return original_createCheckbox(self, parent, color..text, tooltip, checked)
+    --end
+    
+    
+    --hook createText方法
+    local original_createText = br.ui.createText
+    function br.ui.createText(self, parent, text)
+      if type(text)~="string" or #text==0 then original_createText(parent, text); end
+    
+      local color=""
+      if startswith(text,"|c") and #text>10 then
+        color = string.sub(text,1,10)
+        text = string.sub(text,11,#text)
       end
-
-      if tooltip and locales[tooltip] and locales[tooltip]~="" then
-        tooltip = tooltipColor..locales[tooltip]
-      elseif locales[tooltip]==nil then      
-        print('["'..tooltip..'"]="",')
+    
+      if text and locales[text] and locales[text]~="" then
+        text = color..locales[text]
+      elseif locales[text]==nil then      
+        --print('["'..text..'"]="",')
       end
-      return original(parent, text, tooltipColor..tooltip, checked)
+      return original_createText(self, parent, color..text)
     end
+    
+    
+    
+    --local original_isChecked = isChecked
+    --function isChecked(Value)
+    --  if type(Value)~="string" or #Value==0 then return false; end
+    --  local color=""
+    --  if startswith(Value,"|c") and #Value>10 then
+    --    color = string.sub(Value,1,10)
+    --    Value = string.sub(Value,11,#Value)
+    --  end
+    --  
+    --  if Value and locales[Value] and locales[Value]~="" then
+    --    return original_isChecked(locales[Value])
+    --  else
+    --    return original_isChecked(Value)
+    --  end      
+    --end
     
     --修改按钮文字
     
