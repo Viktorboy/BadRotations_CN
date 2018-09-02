@@ -69,6 +69,13 @@ local locales={
 ["Use Crystal"]="",
 ["Use Fel Focuser"]="",
 ["Use emp. Rune"]="",
+["Rotation Mode"]="快捷键：循环模式",
+["Cooldown Mode"]="快捷键：冷却模式",
+["Defensive Mode"]="快捷键：防御模式",
+["Interrupt Mode"]="快捷键：打断模式",
+["Pause Mode"]="快捷键：暂停模式",
+["Mover Mode"]="快捷键：移动战模式",
+["Healer Mode"]="快捷键：治疗模式",
 
 --圣骑士：防护
 ["Blessing of Freedom"]="自由祝福",
@@ -109,11 +116,6 @@ local locales={
 ["Hammer of the Righteous"]="正义之锤",
 ["Judgment"]="审判",
 ["Shield of the Righteous"]="正义盾击",
-["Rotation Mode"]="",
-["Cooldown Mode"]="",
-["Defensive Mode"]="",
-["Interrupt Mode"]="",
-["Pause Mode"]="",
 
 --圣骑士：神圣
 ["OOC Healing"]="",
@@ -212,7 +214,6 @@ local locales={
 ["Chaos Nova - AoE"]="",
 ["Chaos Nova"]="",
 ["Disrupt"]="",
-["Mover Mode"]="",
 
 --恶魔猎手：复仇
 ["Immolation Aura"]="",
@@ -220,8 +221,8 @@ local locales={
 ["Torment"]="",
 ["Consume Magic"]="",
 ["Fel Devastation"]="",
-["Agi-Pot"]="",
-["Flask / Crystal"]="",
+["Agi-Pot"]="爆发药水",
+["Flask / Crystal"]="合剂 / 符文",
 ["Legendary Ring"]="",
 ["Fiery Brand"]="",
 ["Demon Spikes"]="",
@@ -233,7 +234,6 @@ local locales={
 ["Disrupt"]="",
 ["Sigil of Silence"]="",
 ["Sigil of Misery"]="",
-["Mover Mode"]="",
 
 --牧师：戒律
 ["Light's Wrath"]="",
@@ -285,7 +285,7 @@ local locales={
 ["Pre-pull Opener"]="",
 ["Prolonged Pot"]="",
 ["Pro Pot Targets"]="",
-["Mana Potion"]="",
+["Mana Potion"]="回蓝药水",
 ["Power Infusion"]="",
 ["Power Infusion Targets"]="",
 ["Rapture when get Innervate"]="",
@@ -299,7 +299,6 @@ local locales={
 ["Shining Force - Int"]="",
 ["Psychic Scream - Int"]="",
 ["Quaking Palm - Int"]="",
-["Healer Mode"]="",
 
 --牧师：神圣
 ["Cast Timing Debug"]="",
@@ -389,14 +388,14 @@ local locales={
 ["Horn of Valor"]="",
 ["Obliteration"]="",
 ["Pillar of Frost"]="",
-["Healing Potion/Healthstone"]="",
+["Healing Potion/Healthstone"]="治疗药水/治疗石",
 ["Blinding Sleet"]="",
 ["Death Strike"]="",
 ["Cleave Mode"]="",
 
 --死亡骑士：邪恶
 ["SpellQueue Clear"]="",
-["Auto Target"]="",
+["Auto Target"]="自动目标",
 ["Debug Info"]="",
 ["Dark Transformation"]="",
 ["Dark Transformation Units"]="",
@@ -404,7 +403,7 @@ local locales={
 ["Summon Gargoyle"]="",
 ["Auto Summon"]="",
 ["Pet Attack"]="",
-["Healthstone"]="",
+["Healthstone"]="治疗石",
 ["Corpse Shield"]="",
 ["Leap"]="",
 ["Asphyxiate Kick"]="",
@@ -535,7 +534,7 @@ local locales={
 ["Avatar"]="",
 ["Bladestorm"]="",
 ["Ravager"]="",
-["Healthstone/Potion"]="",
+["Healthstone/Potion"]="治疗药水/治疗石",
 ["Defensive Stance"]="",
 ["Die by the Sword"]="",
 ["Intimidating Shout"]="",
@@ -727,7 +726,7 @@ local locales={
 ["Starfall targets"]="",
 ["Minimum HP to dot"]="",
 ["Starsurge Min Astral Power"]="",
-["Flask"]="",
+["Flask"]="合剂",
 ["Augment Rune"]="",
 ["Incarnation/Celestial Alignament"]="",
 ["Warrior of Elune"]="",
@@ -735,7 +734,7 @@ local locales={
 ["Astral Communion"]="",
 ["Renewal"]="",
 ["Swiftmend"]="",
-["Potion/Healthstone"]="",
+["Potion/Healthstone"]="治疗药水/治疗石",
 ["Regrowth"]="",
 ["Rejuvenation"]="",
 ["Barkskin"]="",
