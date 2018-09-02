@@ -1,11 +1,13 @@
 # BadRotations_CN
 
-
 这个插件是BadRotations的附属插件，必须把“BadRotations”和“BadRotations汉化”都选上才可以。
-![进度图](https://github.com/ybhuxiao/BadRotations_CN/raw/master/media/eg.png)
+![使用说明](https://github.com/ybhuxiao/BadRotations_CN/raw/master/media/eg.png)
 
 
-内容持续完善中，进度可以看下图，工作量很大，欢迎一起完善。
+已经基本汉化完毕，完成度80%左右吧，大家有需要的可以一起完善一下。
+感谢
+1、感谢之前Richard做的汉化版本，这个插件中很多中文都是来自那里。
+2、感谢群里一起汉化的小伙伴：Windforce、稻草、奶糖等
 
 ![进度图](https://github.com/ybhuxiao/BadRotations_CN/raw/master/media/progress.png)
 
