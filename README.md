@@ -14,5 +14,8 @@
 
 ![进度图](https://github.com/ybhuxiao/BadRotations_CN/raw/master/media/progress.png)
 
+赞赏码在这里，仅支持微信：
+![微信赞赏](https://camo.githubusercontent.com/9837f329a0d3155cd3931d870d78091ef9c9d0b4/687474703a2f2f776f77646174612e746f702f696d672f7765636861742d7a616e2e6a7067)
 
-有问题/赞赏可联系我，QQ376665005；对lua开发有兴趣的童鞋欢迎加QQ群597022336
+
+有问题可联系我，QQ376665005；对lua开发有兴趣的童鞋欢迎加QQ群597022336
